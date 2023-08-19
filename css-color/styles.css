@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    padding: 1.5em;
+    height: 100%;
+    font-size: 16px;
+    border: 20px solid rgba(25,99,71,0.7);
+    background-color: #b0e0e6;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading1 {
+    background-color: rgb(25,99,71);
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5em;
+}
+.heading2 {
+    background-color: rgba(25,99,71,0.4);
+    margin: 0 auto;
+    padding: 1.5em;
+    text-align:center;
+    text-transform: uppercase;
+
+}
+.heading3 {
+   background-color: #ff6347;
+   color: hsl(20, 12%,2%);
+   text-align:center;
+   padding: 1.5em;
+   
+}
+.heading4 {
+    text-align: center;
+    color: hsla(9, 100%, 64%, 0.5);
+    background-color: hsla(9, 20%, 23%, 0.7);
+    text-align: center;
+    padding: 1.5em;
+}

@@ -1,0 +1,40 @@
+.list {
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 1.5em;
+}
+.container {
+    width: 60%;
+    margin: 2em auto;
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 0.5em;
+    background-image: url("assets/girl.jpg");
+    background-repeat: repeat-ys;
+    background-position: center;
+    background-color: powderblue;
+    border-radius: 1.5em;
+    background-attachment: scroll;
+}
+.heading {
+    text-align: center;
+    padding: 0.5em;
+}
+.class {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 2.5em;
+    background-image: url("assets/girl.jpg");
+}
+.childs {
+    display: grid;
+    grid-template-columns: 2fr  2fr 2fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: auto 20px;
+}
